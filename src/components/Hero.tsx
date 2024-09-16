@@ -1,10 +1,15 @@
 import { ChevronRightIcon } from "lucide-react"
 import ShimmerButton from "./magicui/shimmer-button"
+import { Spotlight } from "./ui/spotlight"
 
 const Hero = () => {
   return (
     <div className="container">
       <div className="py-24 mt-24 flex flex-col items-center justify-center">
+      <Spotlight
+        className="hidden md:block -top-40 left-0 md:left-30 md:-top-40 lg:left-60 lg:-top-20 mx-auto"
+        fill="rgba(255, 255, 255, 0.5)"
+      />
         <h1 className="text-center bg-gradient-to-br from-white light:from-black from-30% to-white/40 light:to-black/40 bg-clip-text py-6 mx-auto font-semibold leading-none tracking-tighter text-transparent text-balance text-6xl md:text-7xl lg:text-8xl">
           Crafting Next-Gen<br className="hidden md:block" /> Landing Pages.
         </h1>
