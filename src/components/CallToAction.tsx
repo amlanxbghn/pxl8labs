@@ -13,7 +13,7 @@ export const CallToAction = () => {
                     <h2 className="text-center bg-gradient-to-br from-white light:from-black from-30% to-white/40 light:to-black/40 bg-clip-text mx-auto font-semibold leading-none tracking-tighter text-transparent text-balance text-5xl md:text-6xl lg:text-7xl pb-8">
                         Start building with us.
                     </h2>
-                    <p className="text-center mb-12 text-lg tracking-tight leading-[30px] text-gray-400 md:text-xl text-balance mx-auto max-w-[300px] md:max-w-[700px]">
+                    <p className="text-center mb-12 text-lg tracking-tight leading-[30px] text-neutral-400 md:text-xl text-balance mx-auto max-w-[300px] md:max-w-[700px]">
                         Book a Free Call in under a minute to find out if we are a good fit.<br /> We'll get back to you promptly.
                     </p>
 

@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils"
 const Hero = () => {
   return (
     <div className="container">
-      <div className="py-24 mt-24 flex flex-col items-center justify-center">
+      <div className="pt-16 mt-24 flex flex-col items-center justify-center">
 
         <div
           className={cn(
@@ -26,7 +26,7 @@ const Hero = () => {
         <h1 className="text-center bg-gradient-to-br from-white light:from-black from-30% to-white/40 light:to-black/40 bg-clip-text py-6 mx-auto font-semibold leading-none tracking-tighter text-transparent text-balance text-6xl md:text-7xl lg:text-8xl">
           Crafting Next-Gen<br className="hidden md:block" /> Landing Pages.
         </h1>
-        <p className="text-center mb-12 text-lg tracking-tight leading-[30px] text-gray-400 md:text-xl text-balance mx-auto">
+        <p className="text-center mb-12 text-lg tracking-tight leading-[30px] text-neutral-400 md:text-xl text-balance mx-auto">
           Helping Founders and Early-Stage Startups build High-Conversion<br className="hidden md:block" /> Landing Pages at a Fraction of the Cost.
         </p>
 
