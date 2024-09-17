@@ -7,7 +7,7 @@ const Features = () => {
   return (
     <div className="container">
       <div className="relative flex flex-col items-center justify-center my-16">
-        <span className="pointer-events-none bg-gradient-to-b from-white to-slate-900/10 bg-clip-text text-center text-5xl md:text-7xl font-semibold text-transparent light:from-black light:to-gray-300/80 md:mb-8">
+        <span className="pointer-events-none bg-gradient-to-b from-white to-slate-900/10 bg-clip-text text-center text-4xl md:text-5xl lg:text-6xl font-semibold text-transparent light:from-black light:to-gray-300/80 md:mb-8">
           What We Offer
         </span>
         <Particles
