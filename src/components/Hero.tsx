@@ -11,10 +11,10 @@ const Hero = () => {
 
         <div
           className={cn(
-            "group rounded-full border light:border-black/5 light:bg-neutral-100 text-base text-white transition-all ease-in light:hover:bg-neutral-200 border-white/5 bg-neutral-900 hover:bg-neutral-800",
+            "group rounded-full border light:border-black/5 light:bg-neutral-100 text-base text-white border-white/5 bg-neutral-900",
           )}
         >
-          <AnimatedShinyText className="inline-flex items-center justify-center px-4 py-1 transition ease-out hover:light:text-neutral-600 hover:duration-300 hover:text-neutral-400">
+          <AnimatedShinyText className="inline-flex items-center justify-center px-4 py-1">
             <span>We are Open to Work</span>
           </AnimatedShinyText>
         </div>

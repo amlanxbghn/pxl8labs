@@ -16,6 +16,7 @@ export const CallToAction = () => {
                     <p className="text-center mb-12 text-lg tracking-tight leading-[30px] text-gray-400 md:text-xl text-balance mx-auto max-w-[300px] md:max-w-[700px]">
                         Book a Free Call in under a minute to find out if we are a good fit.<br /> We'll get back to you promptly.
                     </p>
+
                     <div className="flex justify-center mt-8">
                         <ShimmerButton
                             className="shadow-2xl"
@@ -26,6 +27,7 @@ export const CallToAction = () => {
                             <ChevronRightIcon className="ml-1 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
                         </ShimmerButton>
                     </div>
+
                 </MagicCard>
             </div>
         </section>
