@@ -14,7 +14,7 @@ export const CallToAction = () => {
                         Start building with us.
                     </h2>
                     <p className="text-center mb-12 text-lg tracking-tight leading-[30px] text-neutral-400 md:text-xl text-balance mx-auto max-w-[300px] md:max-w-[700px]">
-                        Book a Free Call in under a minute to find out if we are a good fit.<br /> We'll get back to you promptly.
+                        Book a Free Call in under a minute to find out if we are a good fit.<br /> We&apos;ll get back to you promptly.
                     </p>
 
                     <div className="flex justify-center mt-8">
