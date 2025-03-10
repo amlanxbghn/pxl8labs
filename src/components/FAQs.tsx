@@ -11,7 +11,7 @@ export function FAQs() {
             <h2 className="pointer-events-none bg-gradient-to-b from-white to-slate-900/10 bg-clip-text text-center text-4xl md:text-5xl lg:text-6xl font-semibold text-transparent light:from-black light:to-gray-300/80 md:mb-16">
                 Frequently Asked Questions
             </h2>
-            <Accordion type="single" collapsible className="mx-auto max-w-5xl px-4 my-8">
+            <Accordion type="single" collapsible className="mx-auto max-w-4xl px-4 my-8">
                 <AccordionItem value="item-1">
                     <AccordionTrigger className="text-left">What does the entire process look like from start to finish?</AccordionTrigger>
                     <AccordionContent>
